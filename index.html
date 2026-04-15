@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Küçük Akvaryum</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, sans-serif; background: linear-gradient(180deg, #0a2a3a 0%, #2080c0 100%); color: #fff; min-height: 100vh; padding: 40px 20px; }
+.wrap { max-width: 720px; margin: 0 auto; text-align: center; }
+h1 { font-size: 48px; margin-bottom: 12px; }
+.sub { font-size: 18px; opacity: 0.9; margin-bottom: 32px; }
+.fish { font-size: 120px; margin: 20px 0; animation: swim 4s ease-in-out infinite; display: inline-block; }
+@keyframes swim { 0%,100% { transform: translateX(-30px) rotate(-5deg); } 50% { transform: translateX(30px) rotate(5deg); } }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+.card { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px); }
+.card h3 { font-size: 20px; margin-bottom: 8px; }
+.card p { font-size: 14px; opacity: 0.85; line-height: 1.5; }
+.btn { display: inline-block; padding: 14px 28px; background: #ff80a0; color: #fff; border-radius: 24px; text-decoration: none; font-weight: 700; margin: 10px; }
+footer { margin-top: 60px; opacity: 0.7; font-size: 13px; }
+a { color: #80d0ff; }
+@media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="fish">🐟</div>
+    <h1>Küçük Akvaryum</h1>
+    <p class="sub">Sevimli sanal balığını seç, büyüt, koru</p>
+
+    <div>
+        <a href="https://apps.apple.com/app/idXXXXXXXX" class="btn">📱 App Store'dan İndir</a>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🎮 6 Mini Oyun</h3>
+            <p>Yem yakala, hazine avı, ritim tap, balık yarışı, eşleştirme, hızlı tap</p>
+        </div>
+        <div class="card">
+            <h3>🐠 10 Balık Türü</h3>
+            <p>Hepsini topla, her birinin kendine özgü kişiliği var</p>
+        </div>
+        <div class="card">
+            <h3>🏥 Bakım Sistemi</h3>
+            <p>Veteriner, beslenme, mutluluk, temizlik takibi</p>
+        </div>
+        <div class="card">
+            <h3>📅 30 Günlük Takvim</h3>
+            <p>Her gün giriş yap, ödülünü al, efsane balıklara ulaş</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Erdem Ulugerçek<br>
+        <a href="privacy-policy.html">Gizlilik Politikası</a> &nbsp;·&nbsp;
+        <a href="support.html">Destek</a> &nbsp;·&nbsp;
+        <a href="mailto:erdemulugercek@gmail.com">İletişim</a>
+    </footer>
+</div>
+</body>
+</html>
